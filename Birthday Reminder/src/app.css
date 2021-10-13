@@ -1,0 +1,66 @@
+.app-container {
+  background: white;
+  width: 500px;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding-left: 65px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  margin-bottom: 45px;
+}
+
+.topHeading {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.person-img {
+  height: 100px;
+  width: auto;
+}
+
+.birthday-alternate {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.details {
+  align-self: center;
+  margin-left: 15px;
+}
+.name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.birth-year {
+  font-size: 18px;
+  opacity: 0.7;
+  font-weight: 200;
+}
+
+.button {
+  background: #f38ab2;
+  width: 80%;
+  padding: 15px 0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  background: #eb679a;
+}
