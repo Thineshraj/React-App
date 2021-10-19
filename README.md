@@ -1,7 +1,7 @@
 # React-App
 
 1. Birthday Reminder
-2. 2. Tours
+2. Tours
 
 
 # Getting Started with Create React App
