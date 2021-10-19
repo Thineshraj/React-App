@@ -1,4 +1,4 @@
 # Tours Page
 
 
-![page](http://page.jpg)
+![alt text](./page.jpg)
