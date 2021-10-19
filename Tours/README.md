@@ -1,4 +1,4 @@
 # Tours Page
 
 
-![page](./page.jpg)
+![page](page.jpg)
