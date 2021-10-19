@@ -1,0 +1,89 @@
+.top-heading {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3px;
+}
+.heading-line {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 95px;
+  height: 5px;
+  background-color: rgb(49, 117, 160);
+}
+
+.container {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.place-alternate {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 650px;
+
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.image-contain {
+  height: 400px;
+  overflow: hidden;
+}
+.place-img {
+  width: 650px;
+}
+
+.place-detail {
+  margin: 1.5rem 2rem;
+}
+
+.title-with-price {
+  position: relative;
+}
+.place-price {
+  position: absolute;
+  bottom: 10%;
+  right: 2rem;
+  font-size: 20px;
+  color: rgb(30, 137, 199);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(188, 243, 247);
+  padding: 3px 6px;
+  border-radius: 10px;
+}
+
+.place-title {
+  font-size: 22px;
+  margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.place-desc {
+  font-size: 18px;
+  color: rgb(151, 151, 151);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-contain {
+  text-align: center;
+}
+.btn {
+  padding: 8px 65px;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background: brown;
+  border: 1px solid #fff;
+}
