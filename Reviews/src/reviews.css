@@ -1,0 +1,121 @@
+.review-section {
+  margin-top: 4rem;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.top-heading {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.heading-line {
+  display: block;
+  background-color: cornflowerblue;
+  padding: 2.5px 8px;
+  width: 65px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/* review contain */
+.review-alternate {
+  background-color: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 12px #000;
+}
+
+/* person img */
+
+.img-with-icon {
+  position: relative;
+  width: 155px;
+  height: 155px;
+  margin: 0 auto;
+}
+.person-img-contain {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 8px -4px 1px cornflowerblue;
+  z-index: 1;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quote-icon {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  background-color: cornflowerblue;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px 10px 3px 10px;
+}
+
+/* person details */
+.person-detail {
+  text-align: center;
+  margin-top: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.person-name {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.person-job {
+  font-size: 19px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  color: cornflowerblue;
+}
+.person-text {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+/* buttons */
+.buttons-left-right {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn {
+  color: cornflowerblue;
+  background-color: #fff;
+  border: none;
+  font-size: 22px;
+}
+.left-btn {
+  margin-right: 25px;
+}
+.left-btn,
+.right-btn {
+  cursor: pointer;
+}
+.button-surprise-contain {
+  text-align: center;
+  margin-top: 16px;
+}
+.btn-surprise {
+  color: cornflowerblue;
+  border: none;
+  font-size: 18px;
+  font-weight: 200;
+  background-color: rgb(215, 227, 248);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
