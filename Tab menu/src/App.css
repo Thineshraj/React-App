@@ -1,0 +1,137 @@
+.section {
+  margin-top: 3.5rem;
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+.loading {
+  text-align: center;
+  margin-top: 3.5rem;
+}
+.top-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.underline {
+  background-color: #2badba;
+  width: 95px;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 1.25rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.6rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.btn {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding-bottom: 6px;
+  transition: 0.2s;
+  color: #000;
+}
+.btn:hover {
+  color: #2badba;
+  box-shadow: 0 2px #2badba;
+}
+.btn-active {
+  color: #2badba;
+  box-shadow: 0 2px #2badba;
+}
+
+/* Work info */
+
+.work-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.company {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 2px 10px;
+  border-radius: 3px;
+  background-color: #93dde4;
+  opacity: 0.7;
+  margin-bottom: 0.8rem;
+}
+.date {
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.7;
+}
+.icon {
+  color: #2badba;
+  font-size: 22px;
+}
+.per-duty {
+  display: flex;
+  align-items: center;
+  column-gap: 1.3rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.duty {
+  letter-spacing: 0.8px;
+}
+.more-info-btn-contain {
+  text-align: center;
+}
+.more-info-btn {
+  background-color: #2badba;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 1.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.6rem 4rem;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+.more-info-btn:hover {
+  background-color: #88ebf1;
+  color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 80vw;
+  }
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8px;
+  }
+  .btn {
+    margin-bottom: 1rem;
+  }
+  .btn:hover {
+    box-shadow: -2px 0 #2badba;
+  }
+  .btn-active {
+    box-shadow: -2px 0px #2badba;
+  }
+  .menu-and-info {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+}
