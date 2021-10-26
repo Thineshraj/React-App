@@ -5,6 +5,7 @@
 3. Reviews
 4. Accordion
 5. Food menu
+6. Tab menu
 
 
 # Getting Started with Create React App
