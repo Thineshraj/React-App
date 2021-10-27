@@ -6,6 +6,7 @@
 4. Accordion
 5. Food menu
 6. Tab menu
+7. Slider Testimonial
 
 
 # Getting Started with Create React App
