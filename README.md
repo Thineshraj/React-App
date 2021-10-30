@@ -7,6 +7,7 @@
 5. Food menu
 6. Tab menu
 7. Slider Testimonial
+8. Lorem Generator
 
 
 # Getting Started with Create React App
