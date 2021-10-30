@@ -1,0 +1,65 @@
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.lorem-generator {
+  text-align: center;
+  margin-top: 5rem;
+}
+.top-heading {
+  font-size: 2.2rem;
+}
+
+/* form */
+.form-contain {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+  margin-bottom: 3.5rem;
+}
+.label {
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+.input {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 3rem;
+  font-size: 1.4rem;
+  padding-left: 0.6rem;
+}
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 15px;
+  background-color: #49a6e9;
+  color: #000;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #9dccee;
+  color: #1476bb;
+}
+
+.para {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  line-height: 1.6rem;
+}
+
+@media screen and (max-width: 375px) {
+  .top-heading {
+    font-size: 1.6rem;
+  }
+}
