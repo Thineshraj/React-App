@@ -8,6 +8,7 @@
 6. Tab menu
 7. Slider Testimonial
 8. Lorem Generator
+9. Color Generator
 
 
 # Getting Started with Create React App
