@@ -1,0 +1,24 @@
+.container {
+  width: 95vw;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 35rem;
+  transition: all 0.3 linear;
+}
+.grocery-bud {
+  margin-top: 6rem;
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.3 linear;
+}
+@media screen and (min-width: 580px) {
+  .container {
+    width: 95vw;
+  }
+}
+@media screen and (max-width: 579px) {
+  .grocery-bud {
+    padding: 1rem 1.5rem;
+  }
+}

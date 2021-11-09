@@ -1,0 +1,110 @@
+.input {
+  padding: 8px 15px;
+  flex: 1 0 auto;
+  font-size: 1.1rem;
+  background-color: #f1f5f8;
+  border: transparent;
+  color: grey;
+}
+
+.input::placeholder {
+  color: grey;
+}
+.form {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.btn {
+  flex: 0 0 5rem;
+  font-size: 1.1rem;
+  padding: 0 15px;
+  background: #a5d5f9;
+  border: transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #49a6e9;
+  color: #fff;
+  transition: all 0.2s linear;
+}
+
+.grocery-item {
+  text-align: start;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s linear;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+.grocery-item:hover {
+  background: #f1f5f8;
+}
+
+.title {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.edit-btn {
+  color: #9ae6a0;
+  cursor: pointer;
+}
+.edit-btn:hover {
+  color: #25bb32;
+}
+.remove-btn {
+  color: #e66c6b;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  color: #bb2525;
+}
+.edit-btn,
+.remove-btn {
+  background-color: transparent;
+  border: transparent;
+  transition: all 0.3s linear;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: transparent;
+  color: #bb2525;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.clear-btn:hover {
+  color: #e66c6b;
+}
+
+@media screen and (max-width: 579px) {
+  .grocery-item {
+    margin-left: 0;
+    padding: 0.5rem 0;
+  }
+}
+
+/* alerts */
+.alert {
+  font-size: 1rem;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  padding: 0.1rem 0;
+  text-transform: capitalize;
+}
+.alert-danger {
+  background-color: #ff9b9b;
+}
+.alert-success {
+  background-color: rgb(135, 240, 170);
+}
