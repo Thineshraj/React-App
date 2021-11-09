@@ -9,6 +9,7 @@
 7. Slider Testimonial
 8. Lorem Generator
 9. Color Generator
+10. Grocery bud
 
 
 # Getting Started with Create React App
