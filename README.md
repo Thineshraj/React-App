@@ -1,6 +1,6 @@
 # React-App
 
-1. [Birthday Reminder](./Birthday reminder)
+1. ![Birthday Reminder](./Birthday Reminder)
 2. Tours
 3. Reviews
 4. Accordion
