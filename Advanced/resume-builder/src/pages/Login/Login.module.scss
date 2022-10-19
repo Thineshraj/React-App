@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: #fff;
+  padding: 1rem 1.6rem;
+  border-radius: 8px;
+
+  &-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &-resetPassword {
+    font-size: 0.9rem;
+    text-align: end;
+    a {
+      color: #505050;
+      text-decoration: none;
+    }
+  }
+}
