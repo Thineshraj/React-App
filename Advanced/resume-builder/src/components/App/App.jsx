@@ -1,7 +1,7 @@
-import Login from '../../pages/Login/Login'
+import Authentication from '../../pages/Authentication/Authentication'
 
 const App = () => {
-  return <Login />
+  return <Authentication />
 }
 
 export default App

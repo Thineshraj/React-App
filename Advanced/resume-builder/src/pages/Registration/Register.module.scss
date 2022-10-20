@@ -1,0 +1,22 @@
+.register {
+  background-color: #fff;
+  padding: 1rem 1.6rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  &-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
+.btn {
+  margin-top: 1rem !important;
+}

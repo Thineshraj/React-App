@@ -1,5 +1,4 @@
 import * as React from 'react'
-import Box from '@mui/material/Box'
 import { TextField as TextFieldMui } from '@mui/material'
 
 const TextField = ({
@@ -30,7 +29,7 @@ const TextField = ({
   select,
   SelectProps,
   size,
-  type,
+  type = 'text',
   value,
   variant,
   ...props
