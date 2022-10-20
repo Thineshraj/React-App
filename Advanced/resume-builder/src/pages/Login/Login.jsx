@@ -1,7 +1,7 @@
-import Box from '@mui/material/Box'
-import TextField from '../../components/TextField/TextField'
-import Button from '../../components/Button/Button'
-import styles from './Login.module.scss'
+import Box from '@mui/material/Box';
+import TextField from '../../components/TextField/TextField';
+import Button from '../../components/Button/Button';
+import styles from './Login.module.scss';
 
 const Login = () => {
   return (
@@ -36,7 +36,7 @@ const Login = () => {
         </Button>
       </section>
     </Box>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
