@@ -1,7 +1,8 @@
-import Authentication from '../../pages/Authentication/Authentication'
+// import Authentication from '../../pages/Authentication/Authentication'
+import Home from '../../pages/Home/Home'
 
 const App = () => {
-  return <Authentication />
+  return <Home />
 }
 
 export default App
